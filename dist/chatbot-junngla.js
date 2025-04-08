@@ -6711,7 +6711,7 @@ function yf() {
   const e = "document" in globalThis ? globalThis.document : void 0;
   return e && typeof e == "object" && "baseURI" in e && typeof e.baseURI == "string" ? e.baseURI : void 0;
 }
-const Nn = "http://localhost:5000";
+const Nn = "https://api.chatbot.junngla.com";
 class xf {
   constructor(t) {
     this.config = t;
