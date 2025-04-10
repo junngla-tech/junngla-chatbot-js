@@ -13,7 +13,7 @@ function ar(e) {
   for (const n of e.split(",")) t[n] = 1;
   return (n) => n in t;
 }
-const X = {}, Ht = [], Ue = () => {
+const Z = {}, Ht = [], Ue = () => {
 }, Cl = () => !1, ss = (e) => e.charCodeAt(0) === 111 && e.charCodeAt(1) === 110 && // uppercase letter
 (e.charCodeAt(2) > 122 || e.charCodeAt(2) < 97), cr = (e) => e.startsWith("onUpdate:"), ae = Object.assign, ur = (e, t) => {
   const n = e.indexOf(t);
@@ -105,7 +105,7 @@ const Ui = (e) => !!(e && e.__v_isRef === !0), Wi = (e) => le(e) ? e : e == null
     St(e) ? `Symbol(${(n = e.description) != null ? n : t})` : e
   );
 };
-var Al = { ACLOCAL_PATH: "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal", ALLUSERSPROFILE: "C:\\ProgramData", AMDRMSDKPATH: "C:\\Program Files\\AMD\\RyzenMasterSDK\\", APPDATA: "C:\\Users\\Miloh\\AppData\\Roaming", CHROME_CRASHPAD_PIPE_NAME: "\\\\.\\pipe\\crashpad_27524_ETDYEVIMEJAKEXAB", COLOR: "1", COLORTERM: "truecolor", COMMONPROGRAMFILES: "C:\\Program Files\\Common Files", "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files", CommonProgramW6432: "C:\\Program Files\\Common Files", COMPUTERNAME: "DESKTOP-3I26BL6", COMSPEC: "C:\\WINDOWS\\system32\\cmd.exe", CONFIG_SITE: "C:/Program Files/Git/etc/config.site", DISPLAY: "needs-to-be-defined", DriverData: "C:\\Windows\\System32\\Drivers\\DriverData", EDITOR: "C:\\WINDOWS\\notepad.exe", EFC_33944: "1", EXEPATH: "C:\\Program Files\\Git\\bin", FPS_BROWSER_APP_PROFILE_STRING: "Internet Explorer", FPS_BROWSER_USER_PROFILE_STRING: "Default", GIT_ASKPASS: "c:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh", HOME: "C:\\Users\\Miloh", HOMEDRIVE: "C:", HOMEPATH: "\\Users\\Miloh", HOSTNAME: "DESKTOP-3I26BL6", INFOPATH: "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info", INIT_CWD: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end", "IntelliJ IDEA": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;", JAVA_HOME: "C:\\Program Files\\Java\\jdk-20", LANG: "en_US.UTF-8", LOCALAPPDATA: "C:\\Users\\Miloh\\AppData\\Local", LOGONSERVER: "\\\\DESKTOP-3I26BL6", MANPATH: "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man", MAVEN_HOME: "C:\\Program Files\\Maven\\apache-maven-3.9.1", MINGW_CHOST: "x86_64-w64-mingw32", MINGW_PACKAGE_PREFIX: "mingw-w64-x86_64", MINGW_PREFIX: "C:/Program Files/Git/mingw64", MSYSTEM: "MINGW64", MSYSTEM_CARCH: "x86_64", MSYSTEM_CHOST: "x86_64-w64-mingw32", MSYSTEM_PREFIX: "C:/Program Files/Git/mingw64", NODE: "C:\\Program Files\\nodejs\\node.exe", NODE_ENV: "production", npm_command: "run-script", npm_config_cache: "C:\\Users\\Miloh\\AppData\\Local\\npm-cache", npm_config_globalconfig: "C:\\Program Files\\nodejs\\etc\\npmrc", npm_config_global_prefix: "C:\\Program Files\\nodejs", npm_config_init_module: "C:\\Users\\Miloh\\.npm-init.js", npm_config_legacy_peer_deps: "true", npm_config_local_prefix: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end", npm_config_node_gyp: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js", npm_config_noproxy: "", npm_config_npm_version: "10.5.2", npm_config_prefix: "C:\\Program Files\\nodejs", npm_config_userconfig: "C:\\Users\\Miloh\\.npmrc", npm_config_user_agent: "npm/10.5.2 node/v20.13.1 win32 x64 workspaces/false", npm_execpath: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\bin\\npm-cli.js", npm_lifecycle_event: "build", npm_lifecycle_script: "vue-tsc -b && vite build", npm_node_execpath: "C:\\Program Files\\nodejs\\node.exe", npm_package_json: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end\\package.json", npm_package_name: "junngla-chatbot-frontend-web", npm_package_version: "1.1.0", NUMBER_OF_PROCESSORS: "12", NVM_HOME: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm", NVM_SYMLINK: "C:\\Program Files\\nodejs", OneDrive: "C:\\Users\\Miloh\\OneDrive", ORIGINAL_PATH: "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Maven\\apache-maven-3.9.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\Ruby33-x64\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Miloh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\MongoDB Atlas CLI;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Miloh\\AppData\\Local\\Programs\\mongosh;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand", ORIGINAL_TEMP: "C:/Users/Miloh/AppData/Local/Temp", ORIGINAL_TMP: "C:/Users/Miloh/AppData/Local/Temp", ORIGINAL_XDG_CURRENT_DESKTOP: "undefined", OS: "Windows_NT", PATH: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\node_modules\\.bin;C:\\Users\\Miloh\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Maven\\apache-maven-3.9.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\Ruby33-x64\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Miloh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\MongoDB Atlas CLI;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Miloh\\AppData\\Local\\Programs\\mongosh;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl", PATHEXT: ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW", PKG_CONFIG_PATH: "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig", PLINK_PROTOCOL: "ssh", PROCESSOR_ARCHITECTURE: "AMD64", PROCESSOR_IDENTIFIER: "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD", PROCESSOR_LEVEL: "25", PROCESSOR_REVISION: "5000", ProgramData: "C:\\ProgramData", PROGRAMFILES: "C:\\Program Files", "ProgramFiles(x86)": "C:\\Program Files (x86)", ProgramW6432: "C:\\Program Files", PROMPT: "$P$G", PSModulePath: "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\", PUBLIC: "C:\\Users\\Public", PWD: "C:/Users/Miloh/Desktop/Junngla/Proyectos/CHATBOT/chat-bot-front-end", SESSIONNAME: "Console", SHELL: "C:\\Program Files\\Git\\usr\\bin\\bash.exe", SHLVL: "2", SSH_ASKPASS: "C:/Program Files/Git/mingw64/bin/git-askpass.exe", SYSTEMDRIVE: "C:", SYSTEMROOT: "C:\\WINDOWS", TEMP: "C:\\Users\\Miloh\\AppData\\Local\\Temp", TERM: "xterm-256color", TERM_PROGRAM: "vscode", TERM_PROGRAM_VERSION: "1.98.2", TMP: "C:\\Users\\Miloh\\AppData\\Local\\Temp", TMPDIR: "C:\\Users\\Miloh\\AppData\\Local\\Temp", USERDOMAIN: "DESKTOP-3I26BL6", USERDOMAIN_ROAMINGPROFILE: "DESKTOP-3I26BL6", USERNAME: "Miloh", USERPROFILE: "C:\\Users\\Miloh", VBOX_HWVIRTEX_IGNORE_SVM_IN_USE: "1", VSCODE_GIT_ASKPASS_EXTRA_ARGS: "", VSCODE_GIT_ASKPASS_MAIN: "c:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js", VSCODE_GIT_ASKPASS_NODE: "C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", VSCODE_GIT_IPC_HANDLE: "\\\\.\\pipe\\vscode-git-a98055278d-sock", WINDIR: "C:\\WINDOWS", _: "C:/Program Files/nodejs/node.exe" };
+var Al = { ACLOCAL_PATH: "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal", ALLUSERSPROFILE: "C:\\ProgramData", AMDRMSDKPATH: "C:\\Program Files\\AMD\\RyzenMasterSDK\\", APPDATA: "C:\\Users\\Miloh\\AppData\\Roaming", CHROME_CRASHPAD_PIPE_NAME: "\\\\.\\pipe\\crashpad_24740_ZVNYSESDTESSESZZ", COLOR: "1", COLORTERM: "truecolor", COMMONPROGRAMFILES: "C:\\Program Files\\Common Files", "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files", CommonProgramW6432: "C:\\Program Files\\Common Files", COMPUTERNAME: "DESKTOP-3I26BL6", COMSPEC: "C:\\WINDOWS\\system32\\cmd.exe", CONFIG_SITE: "C:/Program Files/Git/etc/config.site", DISPLAY: "needs-to-be-defined", DriverData: "C:\\Windows\\System32\\Drivers\\DriverData", EDITOR: "C:\\WINDOWS\\notepad.exe", EFC_23872: "1", EXEPATH: "C:\\Program Files\\Git\\bin", FPS_BROWSER_APP_PROFILE_STRING: "Internet Explorer", FPS_BROWSER_USER_PROFILE_STRING: "Default", GIT_ASKPASS: "c:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh", HOME: "C:\\Users\\Miloh", HOMEDRIVE: "C:", HOMEPATH: "\\Users\\Miloh", HOSTNAME: "DESKTOP-3I26BL6", INFOPATH: "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info", INIT_CWD: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end", "IntelliJ IDEA": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;", JAVA_HOME: "C:\\Program Files\\Java\\jdk-20", LANG: "en_US.UTF-8", LOCALAPPDATA: "C:\\Users\\Miloh\\AppData\\Local", LOGONSERVER: "\\\\DESKTOP-3I26BL6", MANPATH: "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man", MAVEN_HOME: "C:\\Program Files\\Maven\\apache-maven-3.9.1", MINGW_CHOST: "x86_64-w64-mingw32", MINGW_PACKAGE_PREFIX: "mingw-w64-x86_64", MINGW_PREFIX: "C:/Program Files/Git/mingw64", MSYSTEM: "MINGW64", MSYSTEM_CARCH: "x86_64", MSYSTEM_CHOST: "x86_64-w64-mingw32", MSYSTEM_PREFIX: "C:/Program Files/Git/mingw64", NODE: "C:\\Program Files\\nodejs\\node.exe", NODE_ENV: "production", npm_command: "run-script", npm_config_cache: "C:\\Users\\Miloh\\AppData\\Local\\npm-cache", npm_config_globalconfig: "C:\\Program Files\\nodejs\\etc\\npmrc", npm_config_global_prefix: "C:\\Program Files\\nodejs", npm_config_init_module: "C:\\Users\\Miloh\\.npm-init.js", npm_config_legacy_peer_deps: "true", npm_config_local_prefix: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end", npm_config_node_gyp: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js", npm_config_noproxy: "", npm_config_npm_version: "10.5.2", npm_config_prefix: "C:\\Program Files\\nodejs", npm_config_userconfig: "C:\\Users\\Miloh\\.npmrc", npm_config_user_agent: "npm/10.5.2 node/v20.13.1 win32 x64 workspaces/false", npm_execpath: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\bin\\npm-cli.js", npm_lifecycle_event: "build", npm_lifecycle_script: "vue-tsc -b && vite build", npm_node_execpath: "C:\\Program Files\\nodejs\\node.exe", npm_package_json: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end\\package.json", npm_package_name: "junngla-chatbot-frontend-web", npm_package_version: "1.1.1", NUMBER_OF_PROCESSORS: "12", NVM_HOME: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm", NVM_SYMLINK: "C:\\Program Files\\nodejs", OneDrive: "C:\\Users\\Miloh\\OneDrive", ORIGINAL_PATH: "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Maven\\apache-maven-3.9.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\Ruby33-x64\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Miloh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\MongoDB Atlas CLI;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Miloh\\AppData\\Local\\Programs\\mongosh;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand", ORIGINAL_TEMP: "C:/Users/Miloh/AppData/Local/Temp", ORIGINAL_TMP: "C:/Users/Miloh/AppData/Local/Temp", ORIGINAL_XDG_CURRENT_DESKTOP: "undefined", OS: "Windows_NT", PATH: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\node_modules\\.bin;C:\\Users\\Miloh\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Maven\\apache-maven-3.9.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\Ruby33-x64\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Miloh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\MongoDB Atlas CLI;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Miloh\\AppData\\Local\\Programs\\mongosh;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl", PATHEXT: ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW", PKG_CONFIG_PATH: "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig", PLINK_PROTOCOL: "ssh", PROCESSOR_ARCHITECTURE: "AMD64", PROCESSOR_IDENTIFIER: "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD", PROCESSOR_LEVEL: "25", PROCESSOR_REVISION: "5000", ProgramData: "C:\\ProgramData", PROGRAMFILES: "C:\\Program Files", "ProgramFiles(x86)": "C:\\Program Files (x86)", ProgramW6432: "C:\\Program Files", PROMPT: "$P$G", PSModulePath: "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\", PUBLIC: "C:\\Users\\Public", PWD: "C:/Users/Miloh/Desktop/Junngla/Proyectos/CHATBOT/chat-bot-front-end", SESSIONNAME: "Console", SHELL: "C:\\Program Files\\Git\\usr\\bin\\bash.exe", SHLVL: "2", SSH_ASKPASS: "C:/Program Files/Git/mingw64/bin/git-askpass.exe", SYSTEMDRIVE: "C:", SYSTEMROOT: "C:\\WINDOWS", TEMP: "C:\\Users\\Miloh\\AppData\\Local\\Temp", TERM: "xterm-256color", TERM_PROGRAM: "vscode", TERM_PROGRAM_VERSION: "1.98.2", TMP: "C:\\Users\\Miloh\\AppData\\Local\\Temp", TMPDIR: "C:\\Users\\Miloh\\AppData\\Local\\Temp", USERDOMAIN: "DESKTOP-3I26BL6", USERDOMAIN_ROAMINGPROFILE: "DESKTOP-3I26BL6", USERNAME: "Miloh", USERPROFILE: "C:\\Users\\Miloh", VBOX_HWVIRTEX_IGNORE_SVM_IN_USE: "1", VSCODE_GIT_ASKPASS_EXTRA_ARGS: "", VSCODE_GIT_ASKPASS_MAIN: "c:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js", VSCODE_GIT_ASKPASS_NODE: "C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", VSCODE_GIT_IPC_HANDLE: "\\\\.\\pipe\\vscode-git-a98055278d-sock", WINDIR: "C:\\WINDOWS", _: "C:/Program Files/nodejs/node.exe" };
 let Ae;
 class Tl {
   constructor(t = !1) {
@@ -584,7 +584,7 @@ function Yt(e, t, n = []) {
   const s = j(e)[t].apply(e, n);
   return dr(), ut(), s;
 }
-const Ll = /* @__PURE__ */ ar("__proto__,__v_isRef,__isVue"), Xi = new Set(
+const Ll = /* @__PURE__ */ ar("__proto__,__v_isRef,__isVue"), Zi = new Set(
   /* @__PURE__ */ Object.getOwnPropertyNames(Symbol).filter((e) => e !== "arguments" && e !== "caller").map((e) => Symbol[e]).filter(St)
 );
 function Nl(e) {
@@ -592,7 +592,7 @@ function Nl(e) {
   const t = j(this);
   return me(t, "has", e), t.hasOwnProperty(e);
 }
-class Zi {
+class Xi {
   constructor(t = !1, n = !1) {
     this._isReadonly = t, this._isShallow = n;
   }
@@ -625,10 +625,10 @@ class Zi {
       // its class methods
       pe(t) ? t : s
     );
-    return (St(n) ? Xi.has(n) : Ll(n)) || (r || me(t, "get", n), i) ? l : pe(l) ? o && fr(n) ? l : l.value : ne(l) ? r ? io(l) : mr(l) : l;
+    return (St(n) ? Zi.has(n) : Ll(n)) || (r || me(t, "get", n), i) ? l : pe(l) ? o && fr(n) ? l : l.value : ne(l) ? r ? io(l) : mr(l) : l;
   }
 }
-class Yi extends Zi {
+class Yi extends Xi {
   constructor(t = !1) {
     super(!1, t);
   }
@@ -655,7 +655,7 @@ class Yi extends Zi {
   }
   has(t, n) {
     const s = Reflect.has(t, n);
-    return (!St(n) || !Xi.has(n)) && me(t, "has", n), s;
+    return (!St(n) || !Zi.has(n)) && me(t, "has", n), s;
   }
   ownKeys(t) {
     return me(
@@ -665,7 +665,7 @@ class Yi extends Zi {
     ), Reflect.ownKeys(t);
   }
 }
-class eo extends Zi {
+class eo extends Xi {
   constructor(t = !1) {
     super(!0, t);
   }
@@ -878,7 +878,7 @@ function j(e) {
   const t = e && e.__v_raw;
   return t ? j(t) : e;
 }
-function Xl(e) {
+function Zl(e) {
   return !z(e, "__v_skip") && Object.isExtensible(e) && $i(e, "__v_skip", !0), e;
 }
 const be = (e) => ne(e) ? mr(e) : e, Gs = (e) => ne(e) ? io(e) : e;
@@ -886,9 +886,9 @@ function pe(e) {
   return e ? e.__v_isRef === !0 : !1;
 }
 function Oe(e) {
-  return Zl(e, !1);
+  return Xl(e, !1);
 }
-function Zl(e, t) {
+function Xl(e, t) {
   return pe(e) ? e : new Yl(e, t);
 }
 class Yl {
@@ -948,7 +948,7 @@ function sa(e, t = !1, n = Et) {
     s || zn.set(n, s = []), s.push(e);
   }
 }
-function ra(e, t, n = X) {
+function ra(e, t, n = Z) {
   const { immediate: s, deep: r, once: i, scheduler: o, augmentJob: l, call: a } = n, u = (A) => r ? A : Le(A) || r === !1 || r === 0 ? ot(A, 1) : ot(A);
   let c, d, p, m, P = !1, b = !1;
   if (pe(e) ? (d = () => e.value, P = Le(e)) : jt(e) ? (d = () => u(e), P = !0) : I(e) ? (b = !0, P = e.some((A) => jt(A) || Le(A)), d = () => e.map((A) => {
@@ -988,24 +988,24 @@ function ra(e, t, n = X) {
     };
   }
   let B = b ? new Array(e.length).fill(On) : On;
-  const W = (A) => {
+  const H = (A) => {
     if (!(!(c.flags & 1) || !c.dirty && !A))
       if (t) {
         const T = c.run();
-        if (r || P || (b ? T.some((N, H) => Ct(N, B[H])) : Ct(T, B))) {
+        if (r || P || (b ? T.some((N, U) => Ct(N, B[U])) : Ct(T, B))) {
           p && p();
           const N = Et;
           Et = c;
           try {
-            const H = [
+            const U = [
               T,
               // pass undefined as the old value when it's changed for the first time
               B === On ? void 0 : b && B[0] === On ? [] : B,
               m
             ];
-            a ? a(t, 3, H) : (
+            a ? a(t, 3, U) : (
               // @ts-expect-error
-              t(...H)
+              t(...U)
             ), B = T;
           } finally {
             Et = N;
@@ -1014,7 +1014,7 @@ function ra(e, t, n = X) {
       } else
         c.run();
   };
-  return l && l(W), c = new Gi(d), c.scheduler = o ? () => o(W, !1) : W, m = (A) => sa(A, !1, c), p = c.onStop = () => {
+  return l && l(H), c = new Gi(d), c.scheduler = o ? () => o(H, !1) : H, m = (A) => sa(A, !1, c), p = c.onStop = () => {
     const A = zn.get(c);
     if (A) {
       if (a)
@@ -1023,7 +1023,7 @@ function ra(e, t, n = X) {
         for (const T of A) T();
       zn.delete(c);
     }
-  }, t ? s ? W(!0) : B = c.run() : o ? o(W.bind(null, !0), !0) : c.run(), D.pause = c.pause.bind(c), D.resume = c.resume.bind(c), D.stop = D, D;
+  }, t ? s ? H(!0) : B = c.run() : o ? o(H.bind(null, !0), !0) : c.run(), D.pause = c.pause.bind(c), D.resume = c.resume.bind(c), D.stop = D, D;
 }
 function ot(e, t = 1 / 0, n) {
   if (t <= 0 || !ne(e) || e.__v_skip || (n = n || /* @__PURE__ */ new Set(), n.has(e)))
@@ -1045,7 +1045,7 @@ function ot(e, t = 1 / 0, n) {
   }
   return e;
 }
-var dt = { ACLOCAL_PATH: "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal", ALLUSERSPROFILE: "C:\\ProgramData", AMDRMSDKPATH: "C:\\Program Files\\AMD\\RyzenMasterSDK\\", APPDATA: "C:\\Users\\Miloh\\AppData\\Roaming", CHROME_CRASHPAD_PIPE_NAME: "\\\\.\\pipe\\crashpad_27524_ETDYEVIMEJAKEXAB", COLOR: "1", COLORTERM: "truecolor", COMMONPROGRAMFILES: "C:\\Program Files\\Common Files", "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files", CommonProgramW6432: "C:\\Program Files\\Common Files", COMPUTERNAME: "DESKTOP-3I26BL6", COMSPEC: "C:\\WINDOWS\\system32\\cmd.exe", CONFIG_SITE: "C:/Program Files/Git/etc/config.site", DISPLAY: "needs-to-be-defined", DriverData: "C:\\Windows\\System32\\Drivers\\DriverData", EDITOR: "C:\\WINDOWS\\notepad.exe", EFC_33944: "1", EXEPATH: "C:\\Program Files\\Git\\bin", FPS_BROWSER_APP_PROFILE_STRING: "Internet Explorer", FPS_BROWSER_USER_PROFILE_STRING: "Default", GIT_ASKPASS: "c:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh", HOME: "C:\\Users\\Miloh", HOMEDRIVE: "C:", HOMEPATH: "\\Users\\Miloh", HOSTNAME: "DESKTOP-3I26BL6", INFOPATH: "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info", INIT_CWD: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end", "IntelliJ IDEA": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;", JAVA_HOME: "C:\\Program Files\\Java\\jdk-20", LANG: "en_US.UTF-8", LOCALAPPDATA: "C:\\Users\\Miloh\\AppData\\Local", LOGONSERVER: "\\\\DESKTOP-3I26BL6", MANPATH: "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man", MAVEN_HOME: "C:\\Program Files\\Maven\\apache-maven-3.9.1", MINGW_CHOST: "x86_64-w64-mingw32", MINGW_PACKAGE_PREFIX: "mingw-w64-x86_64", MINGW_PREFIX: "C:/Program Files/Git/mingw64", MSYSTEM: "MINGW64", MSYSTEM_CARCH: "x86_64", MSYSTEM_CHOST: "x86_64-w64-mingw32", MSYSTEM_PREFIX: "C:/Program Files/Git/mingw64", NODE: "C:\\Program Files\\nodejs\\node.exe", NODE_ENV: "production", npm_command: "run-script", npm_config_cache: "C:\\Users\\Miloh\\AppData\\Local\\npm-cache", npm_config_globalconfig: "C:\\Program Files\\nodejs\\etc\\npmrc", npm_config_global_prefix: "C:\\Program Files\\nodejs", npm_config_init_module: "C:\\Users\\Miloh\\.npm-init.js", npm_config_legacy_peer_deps: "true", npm_config_local_prefix: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end", npm_config_node_gyp: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js", npm_config_noproxy: "", npm_config_npm_version: "10.5.2", npm_config_prefix: "C:\\Program Files\\nodejs", npm_config_userconfig: "C:\\Users\\Miloh\\.npmrc", npm_config_user_agent: "npm/10.5.2 node/v20.13.1 win32 x64 workspaces/false", npm_execpath: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\bin\\npm-cli.js", npm_lifecycle_event: "build", npm_lifecycle_script: "vue-tsc -b && vite build", npm_node_execpath: "C:\\Program Files\\nodejs\\node.exe", npm_package_json: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end\\package.json", npm_package_name: "junngla-chatbot-frontend-web", npm_package_version: "1.1.0", NUMBER_OF_PROCESSORS: "12", NVM_HOME: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm", NVM_SYMLINK: "C:\\Program Files\\nodejs", OneDrive: "C:\\Users\\Miloh\\OneDrive", ORIGINAL_PATH: "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Maven\\apache-maven-3.9.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\Ruby33-x64\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Miloh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\MongoDB Atlas CLI;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Miloh\\AppData\\Local\\Programs\\mongosh;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand", ORIGINAL_TEMP: "C:/Users/Miloh/AppData/Local/Temp", ORIGINAL_TMP: "C:/Users/Miloh/AppData/Local/Temp", ORIGINAL_XDG_CURRENT_DESKTOP: "undefined", OS: "Windows_NT", PATH: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\node_modules\\.bin;C:\\Users\\Miloh\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Maven\\apache-maven-3.9.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\Ruby33-x64\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Miloh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\MongoDB Atlas CLI;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Miloh\\AppData\\Local\\Programs\\mongosh;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl", PATHEXT: ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW", PKG_CONFIG_PATH: "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig", PLINK_PROTOCOL: "ssh", PROCESSOR_ARCHITECTURE: "AMD64", PROCESSOR_IDENTIFIER: "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD", PROCESSOR_LEVEL: "25", PROCESSOR_REVISION: "5000", ProgramData: "C:\\ProgramData", PROGRAMFILES: "C:\\Program Files", "ProgramFiles(x86)": "C:\\Program Files (x86)", ProgramW6432: "C:\\Program Files", PROMPT: "$P$G", PSModulePath: "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\", PUBLIC: "C:\\Users\\Public", PWD: "C:/Users/Miloh/Desktop/Junngla/Proyectos/CHATBOT/chat-bot-front-end", SESSIONNAME: "Console", SHELL: "C:\\Program Files\\Git\\usr\\bin\\bash.exe", SHLVL: "2", SSH_ASKPASS: "C:/Program Files/Git/mingw64/bin/git-askpass.exe", SYSTEMDRIVE: "C:", SYSTEMROOT: "C:\\WINDOWS", TEMP: "C:\\Users\\Miloh\\AppData\\Local\\Temp", TERM: "xterm-256color", TERM_PROGRAM: "vscode", TERM_PROGRAM_VERSION: "1.98.2", TMP: "C:\\Users\\Miloh\\AppData\\Local\\Temp", TMPDIR: "C:\\Users\\Miloh\\AppData\\Local\\Temp", USERDOMAIN: "DESKTOP-3I26BL6", USERDOMAIN_ROAMINGPROFILE: "DESKTOP-3I26BL6", USERNAME: "Miloh", USERPROFILE: "C:\\Users\\Miloh", VBOX_HWVIRTEX_IGNORE_SVM_IN_USE: "1", VSCODE_GIT_ASKPASS_EXTRA_ARGS: "", VSCODE_GIT_ASKPASS_MAIN: "c:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js", VSCODE_GIT_ASKPASS_NODE: "C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", VSCODE_GIT_IPC_HANDLE: "\\\\.\\pipe\\vscode-git-a98055278d-sock", WINDIR: "C:\\WINDOWS", _: "C:/Program Files/nodejs/node.exe" };
+var dt = { ACLOCAL_PATH: "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal", ALLUSERSPROFILE: "C:\\ProgramData", AMDRMSDKPATH: "C:\\Program Files\\AMD\\RyzenMasterSDK\\", APPDATA: "C:\\Users\\Miloh\\AppData\\Roaming", CHROME_CRASHPAD_PIPE_NAME: "\\\\.\\pipe\\crashpad_24740_ZVNYSESDTESSESZZ", COLOR: "1", COLORTERM: "truecolor", COMMONPROGRAMFILES: "C:\\Program Files\\Common Files", "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files", CommonProgramW6432: "C:\\Program Files\\Common Files", COMPUTERNAME: "DESKTOP-3I26BL6", COMSPEC: "C:\\WINDOWS\\system32\\cmd.exe", CONFIG_SITE: "C:/Program Files/Git/etc/config.site", DISPLAY: "needs-to-be-defined", DriverData: "C:\\Windows\\System32\\Drivers\\DriverData", EDITOR: "C:\\WINDOWS\\notepad.exe", EFC_23872: "1", EXEPATH: "C:\\Program Files\\Git\\bin", FPS_BROWSER_APP_PROFILE_STRING: "Internet Explorer", FPS_BROWSER_USER_PROFILE_STRING: "Default", GIT_ASKPASS: "c:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh", HOME: "C:\\Users\\Miloh", HOMEDRIVE: "C:", HOMEPATH: "\\Users\\Miloh", HOSTNAME: "DESKTOP-3I26BL6", INFOPATH: "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info", INIT_CWD: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end", "IntelliJ IDEA": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;", JAVA_HOME: "C:\\Program Files\\Java\\jdk-20", LANG: "en_US.UTF-8", LOCALAPPDATA: "C:\\Users\\Miloh\\AppData\\Local", LOGONSERVER: "\\\\DESKTOP-3I26BL6", MANPATH: "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man", MAVEN_HOME: "C:\\Program Files\\Maven\\apache-maven-3.9.1", MINGW_CHOST: "x86_64-w64-mingw32", MINGW_PACKAGE_PREFIX: "mingw-w64-x86_64", MINGW_PREFIX: "C:/Program Files/Git/mingw64", MSYSTEM: "MINGW64", MSYSTEM_CARCH: "x86_64", MSYSTEM_CHOST: "x86_64-w64-mingw32", MSYSTEM_PREFIX: "C:/Program Files/Git/mingw64", NODE: "C:\\Program Files\\nodejs\\node.exe", NODE_ENV: "production", npm_command: "run-script", npm_config_cache: "C:\\Users\\Miloh\\AppData\\Local\\npm-cache", npm_config_globalconfig: "C:\\Program Files\\nodejs\\etc\\npmrc", npm_config_global_prefix: "C:\\Program Files\\nodejs", npm_config_init_module: "C:\\Users\\Miloh\\.npm-init.js", npm_config_legacy_peer_deps: "true", npm_config_local_prefix: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end", npm_config_node_gyp: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js", npm_config_noproxy: "", npm_config_npm_version: "10.5.2", npm_config_prefix: "C:\\Program Files\\nodejs", npm_config_userconfig: "C:\\Users\\Miloh\\.npmrc", npm_config_user_agent: "npm/10.5.2 node/v20.13.1 win32 x64 workspaces/false", npm_execpath: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\bin\\npm-cli.js", npm_lifecycle_event: "build", npm_lifecycle_script: "vue-tsc -b && vite build", npm_node_execpath: "C:\\Program Files\\nodejs\\node.exe", npm_package_json: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end\\package.json", npm_package_name: "junngla-chatbot-frontend-web", npm_package_version: "1.1.1", NUMBER_OF_PROCESSORS: "12", NVM_HOME: "C:\\Users\\Miloh\\AppData\\Roaming\\nvm", NVM_SYMLINK: "C:\\Program Files\\nodejs", OneDrive: "C:\\Users\\Miloh\\OneDrive", ORIGINAL_PATH: "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Maven\\apache-maven-3.9.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\Ruby33-x64\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Miloh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\MongoDB Atlas CLI;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Miloh\\AppData\\Local\\Programs\\mongosh;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand", ORIGINAL_TEMP: "C:/Users/Miloh/AppData/Local/Temp", ORIGINAL_TMP: "C:/Users/Miloh/AppData/Local/Temp", ORIGINAL_XDG_CURRENT_DESKTOP: "undefined", OS: "Windows_NT", PATH: "C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\chat-bot-front-end\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\CHATBOT\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\Proyectos\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\Junngla\\node_modules\\.bin;C:\\Users\\Miloh\\Desktop\\node_modules\\.bin;C:\\Users\\Miloh\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm\\v20.13.1\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Miloh\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\OpenSSL-Win64\\bin;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files\\dotnet;C:\\Program Files\\Maven\\apache-maven-3.9.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\Ruby33-x64\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Python\\Python311;C:\\Users\\Miloh\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\npm;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\MongoDB Atlas CLI;C:\\Users\\Miloh\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Miloh\\AppData\\Local\\Programs\\mongosh;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.2.1\\bin;C:\\Users\\Miloh\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl", PATHEXT: ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW", PKG_CONFIG_PATH: "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig", PLINK_PROTOCOL: "ssh", PROCESSOR_ARCHITECTURE: "AMD64", PROCESSOR_IDENTIFIER: "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD", PROCESSOR_LEVEL: "25", PROCESSOR_REVISION: "5000", ProgramData: "C:\\ProgramData", PROGRAMFILES: "C:\\Program Files", "ProgramFiles(x86)": "C:\\Program Files (x86)", ProgramW6432: "C:\\Program Files", PROMPT: "$P$G", PSModulePath: "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\", PUBLIC: "C:\\Users\\Public", PWD: "C:/Users/Miloh/Desktop/Junngla/Proyectos/CHATBOT/chat-bot-front-end", SESSIONNAME: "Console", SHELL: "C:\\Program Files\\Git\\usr\\bin\\bash.exe", SHLVL: "2", SSH_ASKPASS: "C:/Program Files/Git/mingw64/bin/git-askpass.exe", SYSTEMDRIVE: "C:", SYSTEMROOT: "C:\\WINDOWS", TEMP: "C:\\Users\\Miloh\\AppData\\Local\\Temp", TERM: "xterm-256color", TERM_PROGRAM: "vscode", TERM_PROGRAM_VERSION: "1.98.2", TMP: "C:\\Users\\Miloh\\AppData\\Local\\Temp", TMPDIR: "C:\\Users\\Miloh\\AppData\\Local\\Temp", USERDOMAIN: "DESKTOP-3I26BL6", USERDOMAIN_ROAMINGPROFILE: "DESKTOP-3I26BL6", USERNAME: "Miloh", USERPROFILE: "C:\\Users\\Miloh", VBOX_HWVIRTEX_IGNORE_SVM_IN_USE: "1", VSCODE_GIT_ASKPASS_EXTRA_ARGS: "", VSCODE_GIT_ASKPASS_MAIN: "c:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js", VSCODE_GIT_ASKPASS_NODE: "C:\\Users\\Miloh\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", VSCODE_GIT_IPC_HANDLE: "\\\\.\\pipe\\vscode-git-a98055278d-sock", WINDIR: "C:\\WINDOWS", _: "C:/Program Files/nodejs/node.exe" };
 const un = [];
 let Es = !1;
 function ia(e, ...t) {
@@ -1140,7 +1140,7 @@ function He(e, t, n, s) {
   }
 }
 function ds(e, t, n, s = !0) {
-  const r = t ? t.vnode : null, { errorHandler: i, throwUnhandledErrorInProduction: o } = t && t.appContext.config || X;
+  const r = t ? t.vnode : null, { errorHandler: i, throwUnhandledErrorInProduction: o } = t && t.appContext.config || Z;
   if (t) {
     let l = t.parent;
     const a = t.proxy, u = `https://vuejs.org/error-reference/#runtime-${n}`;
@@ -1272,7 +1272,7 @@ function da(e, t) {
     return e;
   const n = Cs(Pe), s = e.dirs || (e.dirs = []);
   for (let r = 0; r < t.length; r++) {
-    let [i, o, l, a = X] = t[r];
+    let [i, o, l, a = Z] = t[r];
     i && (L(i) && (i = {
       mounted: i,
       updated: i
@@ -1422,7 +1422,7 @@ function js(e, t, n, s, r) {
     onBeforeAppear: E,
     onAppear: D,
     onAfterAppear: B,
-    onAppearCancelled: W
+    onAppearCancelled: H
   } = t, A = String(e.key), T = So(n, e), N = ($, V) => {
     $ && He(
       $,
@@ -1430,10 +1430,10 @@ function js(e, t, n, s, r) {
       9,
       V
     );
-  }, H = ($, V) => {
+  }, U = ($, V) => {
     const ie = V[1];
     N($, V), I($) ? $.every((M) => M.length <= 1) && ie() : $.length <= 1 && ie();
-  }, Z = {
+  }, X = {
     mode: o,
     persisted: l,
     beforeEnter($) {
@@ -1454,14 +1454,14 @@ function js(e, t, n, s, r) {
       let V = u, ie = c, M = d;
       if (!n.isMounted)
         if (i)
-          V = D || u, ie = B || c, M = W || d;
+          V = D || u, ie = B || c, M = H || d;
         else
           return;
       let se = !1;
       const ge = $[Dn] = (Ye) => {
-        se || (se = !0, Ye ? N(M, [$]) : N(ie, [$]), Z.delayedLeave && Z.delayedLeave(), $[Dn] = void 0);
+        se || (se = !0, Ye ? N(M, [$]) : N(ie, [$]), X.delayedLeave && X.delayedLeave(), $[Dn] = void 0);
       };
-      V ? H(V, [$, ge]) : ge();
+      V ? U(V, [$, ge]) : ge();
     },
     leave($, V) {
       const ie = String(e.key);
@@ -1475,7 +1475,7 @@ function js(e, t, n, s, r) {
       const se = $[gt] = (ge) => {
         M || (M = !0, V(), ge ? N(b, [$]) : N(P, [$]), $[gt] = void 0, T[ie] === e && delete T[ie]);
       };
-      T[ie] = e, m ? H(m, [$, se]) : se();
+      T[ie] = e, m ? U(m, [$, se]) : se();
     },
     clone($) {
       const V = js(
@@ -1488,7 +1488,7 @@ function js(e, t, n, s, r) {
       return r && r(V), V;
     }
   };
-  return Z;
+  return X;
 }
 function Ms(e) {
   if (ps(e))
@@ -1551,7 +1551,7 @@ function Jn(e, t, n, s, r = !1) {
     s.shapeFlag & 512 && s.type.__asyncResolved && s.component.subTree.component && Jn(e, t, n, s.component.subTree);
     return;
   }
-  const i = s.shapeFlag & 4 ? Cs(s.component) : s.el, o = r ? null : i, { i: l, r: a } = e, u = t && t.r, c = l.refs === X ? l.refs = {} : l.refs, d = l.setupState, p = j(d), m = d === X ? () => !1 : (P) => z(p, P);
+  const i = s.shapeFlag & 4 ? Cs(s.component) : s.el, o = r ? null : i, { i: l, r: a } = e, u = t && t.r, c = l.refs === Z ? l.refs = {} : l.refs, d = l.setupState, p = j(d), m = d === Z ? () => !1 : (P) => z(p, P);
   if (u != null && u !== a && (le(u) ? (c[u] = null, m(u) && (d[u] = null)) : pe(u) && (u.value = null)), L(a))
     qt(a, l, 12, [o, c]);
   else {
@@ -1713,7 +1713,7 @@ const Vs = (e) => e ? Ko(e) ? Cs(e) : Vs(e.parent) : null, dn = (
     $nextTick: (e) => e.n || (e.n = Cr.bind(e.proxy)),
     $watch: (e) => Ya.bind(e)
   })
-), As = (e, t) => e !== X && !e.__isScriptSetup && z(e, t), Ia = {
+), As = (e, t) => e !== Z && !e.__isScriptSetup && z(e, t), Ia = {
   get({ _: e }, t) {
     if (t === "__v_skip")
       return !0;
@@ -1735,7 +1735,7 @@ const Vs = (e) => e ? Ko(e) ? Cs(e) : Vs(e.parent) : null, dn = (
       else {
         if (As(s, t))
           return o[t] = 1, s[t];
-        if (r !== X && z(r, t))
+        if (r !== Z && z(r, t))
           return o[t] = 2, r[t];
         if (
           // only cache other properties when instance has declared (thus stable)
@@ -1743,7 +1743,7 @@ const Vs = (e) => e ? Ko(e) ? Cs(e) : Vs(e.parent) : null, dn = (
           (u = e.propsOptions[0]) && z(u, t)
         )
           return o[t] = 3, i[t];
-        if (n !== X && z(n, t))
+        if (n !== Z && z(n, t))
           return o[t] = 4, n[t];
         zs && (o[t] = 0);
       }
@@ -1757,7 +1757,7 @@ const Vs = (e) => e ? Ko(e) ? Cs(e) : Vs(e.parent) : null, dn = (
       (d = l.__cssModules) && (d = d[t])
     )
       return d;
-    if (n !== X && z(n, t))
+    if (n !== Z && z(n, t))
       return o[t] = 4, n[t];
     if (
       // global properties
@@ -1767,13 +1767,13 @@ const Vs = (e) => e ? Ko(e) ? Cs(e) : Vs(e.parent) : null, dn = (
   },
   set({ _: e }, t, n) {
     const { data: s, setupState: r, ctx: i } = e;
-    return As(r, t) ? (r[t] = n, !0) : s !== X && z(s, t) ? (s[t] = n, !0) : z(e.props, t) || t[0] === "$" && t.slice(1) in e ? !1 : (i[t] = n, !0);
+    return As(r, t) ? (r[t] = n, !0) : s !== Z && z(s, t) ? (s[t] = n, !0) : z(e.props, t) || t[0] === "$" && t.slice(1) in e ? !1 : (i[t] = n, !0);
   },
   has({
     _: { data: e, setupState: t, accessCache: n, ctx: s, appContext: r, propsOptions: i }
   }, o) {
     let l;
-    return !!n[o] || e !== X && z(e, o) || As(t, o) || (l = i[0]) && z(l, o) || z(s, o) || z(dn, o) || z(r.config.globalProperties, o);
+    return !!n[o] || e !== Z && z(e, o) || As(t, o) || (l = i[0]) && z(l, o) || z(s, o) || z(dn, o) || z(r.config.globalProperties, o);
   },
   defineProperty(e, t, n) {
     return n.get != null ? e._.accessCache[t] = 0 : z(n, "value") && this.set(e, t, n.value, null), Reflect.defineProperty(e, t, n);
@@ -1807,12 +1807,12 @@ function Oa(e) {
     deactivated: E,
     beforeDestroy: D,
     beforeUnmount: B,
-    destroyed: W,
+    destroyed: H,
     unmounted: A,
     render: T,
     renderTracked: N,
-    renderTriggered: H,
-    errorCaptured: Z,
+    renderTriggered: U,
+    errorCaptured: X,
     serverPrefetch: $,
     // public API
     expose: V,
@@ -1833,7 +1833,7 @@ function Oa(e) {
   }
   if (zs = !0, i)
     for (const oe in i) {
-      const Y = i[oe], yt = L(Y) ? Y.bind(n, n) : L(Y.get) ? Y.get.bind(n, n) : Ue, Mn = !L(Y) && L(Y.set) ? Y.set.bind(n) : Ue, xt = Xs({
+      const Y = i[oe], yt = L(Y) ? Y.bind(n, n) : L(Y.get) ? Y.get.bind(n, n) : Ue, Mn = !L(Y) && L(Y.set) ? Y.set.bind(n) : Ue, xt = Zs({
         get: yt,
         set: Mn
       });
@@ -1857,7 +1857,7 @@ function Oa(e) {
   function he(oe, Y) {
     I(Y) ? Y.forEach((yt) => oe(yt.bind(n))) : Y && oe(Y.bind(n));
   }
-  if (he(ya, d), he(Sr, p), he(xa, m), he(va, P), he(Ca, b), he(_a, E), he(Ea, Z), he(ka, N), he(Pa, H), he(wo, B), he(Po, A), he(wa, $), I(V))
+  if (he(ya, d), he(Sr, p), he(xa, m), he(va, P), he(Ca, b), he(_a, E), he(Ea, X), he(ka, N), he(Pa, U), he(wo, B), he(Po, A), he(wa, $), I(V))
     if (V.length) {
       const oe = e.exposed || (e.exposed = {});
       V.forEach((Y) => {
@@ -1897,15 +1897,15 @@ function ko(e, t, n, s) {
   let r = s.includes(".") ? Wo(n, s) : () => n[s];
   if (le(e)) {
     const i = t[e];
-    L(i) && Xe(r, i);
+    L(i) && Ze(r, i);
   } else if (L(e))
-    Xe(r, e.bind(n));
+    Ze(r, e.bind(n));
   else if (ne(e))
     if (I(e))
       e.forEach((i) => ko(i, t, n, s));
     else {
       const i = L(e.handler) ? e.handler.bind(n) : t[e.handler];
-      L(i) && Xe(r, i, e);
+      L(i) && Ze(r, i, e);
     }
 }
 function Eo(e) {
@@ -2186,7 +2186,7 @@ function Oo(e, t, n, s) {
       r && z(r, c = ye(a)) ? !i || !i.includes(c) ? n[c] = u : (l || (l = {}))[c] = u : ms(e.emitsOptions, a) || (!(a in s) || u !== s[a]) && (s[a] = u, o = !0);
     }
   if (i) {
-    const a = j(n), u = l || X;
+    const a = j(n), u = l || Z;
     for (let c = 0; c < i.length; c++) {
       const d = i[c];
       n[d] = qs(
@@ -2252,7 +2252,7 @@ function Do(e, t, n = !1) {
   if (I(i))
     for (let c = 0; c < i.length; c++) {
       const d = ye(i[c]);
-      Jr(d) && (o[d] = X);
+      Jr(d) && (o[d] = Z);
     }
   else if (i)
     for (const c in i) {
@@ -2262,11 +2262,11 @@ function Do(e, t, n = !1) {
         let b = !1, E = !0;
         if (I(P))
           for (let D = 0; D < P.length; ++D) {
-            const B = P[D], W = L(B) && B.name;
-            if (W === "Boolean") {
+            const B = P[D], H = L(B) && B.name;
+            if (H === "Boolean") {
               b = !0;
               break;
-            } else W === "String" && (E = !1);
+            } else H === "String" && (E = !1);
           }
         else
           b = L(P) && P.name === "Boolean";
@@ -2316,7 +2316,7 @@ const Fo = (e) => e[0] === "_" || e === "$stable", yr = (e) => I(e) ? e.map(Qe) 
   } else t && No(e, t);
 }, Va = (e, t, n) => {
   const { vnode: s, slots: r } = e;
-  let i = !0, o = X;
+  let i = !0, o = Z;
   if (s.shapeFlag & 32) {
     const l = t._;
     l ? n && l === 1 ? i = !1 : $o(r, t, n) : (i = !t.$stable, Lo(t, r)), o = t;
@@ -2403,7 +2403,7 @@ function Ka(e, t) {
           w,
           v,
           x,
-          Xt
+          Zt
         );
     }
     O != null && C && Jn(O, f && f.ref, _, h || f, !h);
@@ -2433,7 +2433,7 @@ function Ka(e, t) {
       f.el,
       f.anchor
     );
-  }, W = ({ el: f, anchor: h }, g, S) => {
+  }, H = ({ el: f, anchor: h }, g, S) => {
     let C;
     for (; f && f !== h; )
       C = p(f), s(f, g, S), f = C;
@@ -2470,7 +2470,7 @@ function Ka(e, t) {
       _,
       O && O.is,
       O
-    ), k & 8 ? c(x, f.children) : k & 16 && Z(
+    ), k & 8 ? c(x, f.children) : k & 16 && X(
       f.children,
       x,
       null,
@@ -2479,7 +2479,7 @@ function Ka(e, t) {
       Ts(f, _),
       w,
       v
-    ), F && vt(f, null, S, "created"), H(x, f, f.scopeId, w, S), O) {
+    ), F && vt(f, null, S, "created"), U(x, f, f.scopeId, w, S), O) {
       for (const ee in O)
         ee !== "value" && !ln(ee) && i(x, ee, null, O[ee], _, S);
       "value" in O && i(x, "value", null, O.value, _), (y = O.onVnodeBeforeMount) && Ke(y, S, f);
@@ -2489,7 +2489,7 @@ function Ka(e, t) {
     G && R.beforeEnter(x), s(x, h, g), ((y = O && O.onVnodeMounted) || G || F) && Me(() => {
       y && Ke(y, S, f), G && R.enter(x), F && vt(f, null, S, "mounted");
     }, C);
-  }, H = (f, h, g, S, C) => {
+  }, U = (f, h, g, S, C) => {
     if (g && m(f, g), S)
       for (let _ = 0; _ < S.length; _++)
         m(f, S[_]);
@@ -2497,7 +2497,7 @@ function Ka(e, t) {
       let _ = C.subTree;
       if (h === _ || Go(_.type) && (_.ssContent === h || _.ssFallback === h)) {
         const w = C.vnode;
-        H(
+        U(
           f,
           w,
           w.scopeId,
@@ -2506,7 +2506,7 @@ function Ka(e, t) {
         );
       }
     }
-  }, Z = (f, h, g, S, C, _, w, v, x = 0) => {
+  }, X = (f, h, g, S, C, _, w, v, x = 0) => {
     for (let y = x; y < f.length; y++) {
       const O = f[y] = v ? mt(f[y]) : Qe(f[y]);
       b(
@@ -2525,7 +2525,7 @@ function Ka(e, t) {
     const v = h.el = f.el;
     let { patchFlag: x, dynamicChildren: y, dirs: O } = h;
     x |= f.patchFlag & 16;
-    const k = f.props || X, R = h.props || X;
+    const k = f.props || Z, R = h.props || Z;
     let F;
     if (g && wt(g, !1), (F = R.onVnodeBeforeUpdate) && Ke(F, g, h, f), O && vt(h, f, g, "beforeUpdate"), g && wt(g, !0), (k.innerHTML && R.innerHTML == null || k.textContent && R.textContent == null) && c(v, ""), y ? V(
       f.dynamicChildren,
@@ -2590,7 +2590,7 @@ function Ka(e, t) {
     }
   }, ie = (f, h, g, S, C) => {
     if (h !== g) {
-      if (h !== X)
+      if (h !== Z)
         for (const _ in h)
           !ln(_) && !(_ in g) && i(
             f,
@@ -2610,7 +2610,7 @@ function Ka(e, t) {
   }, M = (f, h, g, S, C, _, w, v, x) => {
     const y = h.el = f ? f.el : l(""), O = h.anchor = f ? f.anchor : l("");
     let { patchFlag: k, dynamicChildren: R, slotScopeIds: F } = h;
-    F && (v = v ? v.concat(F) : F), f == null ? (s(y, g, S), s(O, g, S), Z(
+    F && (v = v ? v.concat(F) : F), f == null ? (s(y, g, S), s(O, g, S), X(
       // #10007
       // such fragment like `<></>` will be compiled into
       // a fragment which doesn't have a children.
@@ -2675,7 +2675,7 @@ function Ka(e, t) {
       S,
       C
     );
-    if (ps(f) && (v.ctx.renderer = Xt), gc(v, !1, w), v.asyncDep) {
+    if (ps(f) && (v.ctx.renderer = Zt), gc(v, !1, w), v.asyncDep) {
       if (C && C.registerDep(v, he, w), !f.el) {
         const x = v.subTree = de(we);
         D(null, x, h, g);
@@ -2715,7 +2715,7 @@ function Ka(e, t) {
         }
         let q = k, ke;
         wt(f, !1), k ? (k.el = ee.el, oe(f, k, w)) : k = ee, R && Bn(R), (ke = k.props && k.props.onVnodeBeforeUpdate) && Ke(ke, G, k, ee), wt(f, !0);
-        const xe = Xr(f), je = f.subTree;
+        const xe = Zr(f), je = f.subTree;
         f.subTree = xe, b(
           je,
           xe,
@@ -2736,7 +2736,7 @@ function Ka(e, t) {
         wt(f, !1), G && Bn(G), !je && (k = F && F.onVnodeBeforeMount) && Ke(k, q, h), wt(f, !0);
         {
           ke.ce && ke.ce._injectChildStyle(xe);
-          const Ve = f.subTree = Xr(f);
+          const Ve = f.subTree = Zr(f);
           b(
             null,
             Ve,
@@ -2807,7 +2807,7 @@ function Ka(e, t) {
       w,
       v,
       x
-    ) : Qt(y, C, _, !0) : (O & 8 && c(g, ""), F & 16 && Z(
+    ) : Qt(y, C, _, !0) : (O & 8 && c(g, ""), F & 16 && X(
       k,
       g,
       S,
@@ -2842,7 +2842,7 @@ function Ka(e, t) {
       !0,
       !1,
       k
-    ) : Z(
+    ) : X(
       h,
       g,
       S,
@@ -2921,8 +2921,8 @@ function Ka(e, t) {
       let q, ke = 0;
       const xe = R - G + 1;
       let je = !1, Ve = 0;
-      const Zt = new Array(xe);
-      for (y = 0; y < xe; y++) Zt[y] = 0;
+      const Xt = new Array(xe);
+      for (y = 0; y < xe; y++) Xt[y] = 0;
       for (y = F; y <= k; y++) {
         const Ee = f[y];
         if (ke >= xe) {
@@ -2934,11 +2934,11 @@ function Ka(e, t) {
           ze = ee.get(Ee.key);
         else
           for (q = G; q <= R; q++)
-            if (Zt[q - G] === 0 && Mt(Ee, h[q])) {
+            if (Xt[q - G] === 0 && Mt(Ee, h[q])) {
               ze = q;
               break;
             }
-        ze === void 0 ? Ge(Ee, C, _, !0) : (Zt[ze - G] = y + 1, ze >= Ve ? Ve = ze : je = !0, b(
+        ze === void 0 ? Ge(Ee, C, _, !0) : (Xt[ze - G] = y + 1, ze >= Ve ? Ve = ze : je = !0, b(
           Ee,
           h[ze],
           g,
@@ -2950,10 +2950,10 @@ function Ka(e, t) {
           x
         ), ke++);
       }
-      const Nr = je ? Ja(Zt) : Ht;
+      const Nr = je ? Ja(Xt) : Ht;
       for (q = Nr.length - 1, y = xe - 1; y >= 0; y--) {
         const Ee = G + y, ze = h[Ee], $r = Ee + 1 < O ? h[Ee + 1].el : S;
-        Zt[y] === 0 ? b(
+        Xt[y] === 0 ? b(
           null,
           ze,
           g,
@@ -2977,7 +2977,7 @@ function Ka(e, t) {
       return;
     }
     if (y & 64) {
-      w.move(f, h, g, Xt);
+      w.move(f, h, g, Zt);
       return;
     }
     if (w === Be) {
@@ -2988,7 +2988,7 @@ function Ka(e, t) {
       return;
     }
     if (w === Rs) {
-      W(f, h, g);
+      H(f, h, g);
       return;
     }
     if (S !== 2 && y & 1 && v)
@@ -3033,7 +3033,7 @@ function Ka(e, t) {
         f,
         h,
         g,
-        Xt,
+        Zt,
         S
       ) : y && // #5154
       // when v-once is used inside a block, setBlockTracking(-1) marks the
@@ -3102,13 +3102,13 @@ function Ka(e, t) {
       null,
       g
     ), h._vnode = f, ys || (ys = !0, Hr(), fo(), ys = !1);
-  }, Xt = {
+  }, Zt = {
     p: b,
     um: Ge,
     m: xt,
     r: Fr,
     mt: ge,
-    mc: Z,
+    mc: X,
     pc: Y,
     pbc: V,
     n: An,
@@ -3168,19 +3168,19 @@ function Qr(e) {
     for (let t = 0; t < e.length; t++)
       e[t].flags |= 8;
 }
-const Qa = Symbol.for("v-scx"), Xa = () => Un(Qa);
-function Za(e, t) {
+const Qa = Symbol.for("v-scx"), Za = () => Un(Qa);
+function Xa(e, t) {
   return xr(e, null, t);
 }
-function Xe(e, t, n) {
+function Ze(e, t, n) {
   return xr(e, t, n);
 }
-function xr(e, t, n = X) {
+function xr(e, t, n = Z) {
   const { immediate: s, deep: r, flush: i, once: o } = n, l = ae({}, n), a = t && s || !t && i !== "post";
   let u;
   if (wn) {
     if (i === "sync") {
-      const m = Xa();
+      const m = Za();
       u = m.__watcherHandles || (m.__watcherHandles = []);
     } else if (!a) {
       const m = () => {
@@ -3220,7 +3220,7 @@ function Wo(e, t) {
 const ec = (e, t) => t === "modelValue" || t === "model-value" ? e.modelModifiers : e[`${t}Modifiers`] || e[`${ye(t)}Modifiers`] || e[`${Te(t)}Modifiers`];
 function tc(e, t, ...n) {
   if (e.isUnmounted) return;
-  const s = e.vnode.props || X;
+  const s = e.vnode.props || Z;
   let r = n;
   const i = t.startsWith("update:"), o = i && ec(s, t.slice(7));
   o && (o.trim && (r = n.map((c) => le(c) ? c.trim() : c)), o.number && (r = n.map(Ns)));
@@ -3264,7 +3264,7 @@ function Ho(e, t, n = !1) {
 function ms(e, t) {
   return !e || !ss(t) ? !1 : (t = t.slice(2).replace(/Once$/, ""), z(e, t[0].toLowerCase() + t.slice(1)) || z(e, Te(t)) || z(e, t));
 }
-function Xr(e) {
+function Zr(e) {
   const {
     type: t,
     vnode: n,
@@ -3286,12 +3286,12 @@ function Xr(e) {
   try {
     if (n.shapeFlag & 4) {
       const A = r || s, T = dt.NODE_ENV !== "production" && m.__isScriptSetup ? new Proxy(A, {
-        get(N, H, Z) {
+        get(N, U, X) {
           return ia(
             `Property '${String(
-              H
+              U
             )}' was accessed via 'this'. Avoid using 'this' in templates.`
-          ), Reflect.get(N, H, Z);
+          ), Reflect.get(N, U, X);
         }
       }) : A;
       D = Qe(
@@ -3326,15 +3326,15 @@ function Xr(e) {
   } catch (A) {
     pn.length = 0, ds(A, e, 1), D = de(we);
   }
-  let W = D;
+  let H = D;
   if (B && b !== !1) {
-    const A = Object.keys(B), { shapeFlag: T } = W;
+    const A = Object.keys(B), { shapeFlag: T } = H;
     A.length && T & 7 && (i && A.some(cr) && (B = sc(
       B,
       i
-    )), W = _t(W, B, !1, !0));
+    )), H = _t(H, B, !1, !0));
   }
-  return n.dirs && (W = _t(W, null, !1, !0), W.dirs = W.dirs ? W.dirs.concat(n.dirs) : n.dirs), n.transition && xn(W, n.transition), D = W, qn(E), D;
+  return n.dirs && (H = _t(H, null, !1, !0), H.dirs = H.dirs ? H.dirs.concat(n.dirs) : n.dirs), n.transition && xn(H, n.transition), D = H, qn(E), D;
 }
 const nc = (e) => {
   let t;
@@ -3355,7 +3355,7 @@ function rc(e, t, n) {
     if (a & 1024)
       return !0;
     if (a & 16)
-      return s ? Zr(s, o, u) : !!o;
+      return s ? Xr(s, o, u) : !!o;
     if (a & 8) {
       const c = t.dynamicProps;
       for (let d = 0; d < c.length; d++) {
@@ -3365,10 +3365,10 @@ function rc(e, t, n) {
       }
     }
   } else
-    return (r || l) && (!l || !l.$stable) ? !0 : s === o ? !1 : s ? o ? Zr(s, o, u) : !0 : !!o;
+    return (r || l) && (!l || !l.$stable) ? !0 : s === o ? !1 : s ? o ? Xr(s, o, u) : !0 : !!o;
   return !1;
 }
-function Zr(e, t, n) {
+function Xr(e, t, n) {
   const s = Object.keys(t);
   if (s.length !== Object.keys(e).length)
     return !0;
@@ -3409,7 +3409,7 @@ function jo(e) {
 }
 function at(e, t, n, s, r, i) {
   return jo(
-    Ze(
+    Xe(
       e,
       t,
       n,
@@ -3432,7 +3432,7 @@ function Js(e, t, n, s, r) {
     )
   );
 }
-function Xn(e) {
+function Zn(e) {
   return e ? e.__v_isVNode === !0 : !1;
 }
 function Mt(e, t) {
@@ -3443,7 +3443,7 @@ const Vo = ({ key: e }) => e ?? null, Wn = ({
   ref_key: t,
   ref_for: n
 }) => (typeof e == "number" && (e = "" + e), e != null ? le(e) || pe(e) || L(e) ? { i: Pe, r: e, k: t, f: !!n } : e : null);
-function Ze(e, t = null, n = null, s = 0, r = null, i = e === Be ? 0 : 1, o = !1, l = !1) {
+function Xe(e, t = null, n = null, s = 0, r = null, i = e === Be ? 0 : 1, o = !1, l = !1) {
   const a = {
     __v_isVNode: !0,
     __v_skip: !0,
@@ -3485,7 +3485,7 @@ function Ze(e, t = null, n = null, s = 0, r = null, i = e === Be ? 0 : 1, o = !1
 }
 const de = ac;
 function ac(e, t = null, n = null, s = 0, r = null, i = !1) {
-  if ((!e || e === Aa) && (e = we), Xn(e)) {
+  if ((!e || e === Aa) && (e = we), Zn(e)) {
     const l = _t(
       e,
       t,
@@ -3500,7 +3500,7 @@ function ac(e, t = null, n = null, s = 0, r = null, i = !1) {
     l && !le(l) && (t.class = cs(l)), ne(a) && (br(a) && !I(a) && (a = ae({}, a)), t.style = lt(a));
   }
   const o = le(e) ? 1 : Go(e) ? 128 : mo(e) ? 64 : ne(e) ? 4 : L(e) ? 2 : 0;
-  return Ze(
+  return Xe(
     e,
     t,
     n,
@@ -3575,7 +3575,7 @@ function Qe(e) {
     null,
     // #3666, avoid reference pollution when reusing vnode
     e.slice()
-  ) : Xn(e) ? mt(e) : de(bs, null, String(e));
+  ) : Zn(e) ? mt(e) : de(bs, null, String(e));
 }
 function mt(e) {
   return e.el === null && e.patchFlag !== -1 || e.memo ? e : _t(e);
@@ -3664,17 +3664,17 @@ function pc(e, t, n) {
     // to be set immediately
     emitted: null,
     // props default value
-    propsDefaults: X,
+    propsDefaults: Z,
     // inheritAttrs
     inheritAttrs: s.inheritAttrs,
     // state
-    ctx: X,
-    data: X,
-    props: X,
-    attrs: X,
-    slots: X,
-    refs: X,
-    setupState: X,
+    ctx: Z,
+    data: Z,
+    props: Z,
+    attrs: Z,
+    slots: Z,
+    refs: Z,
+    setupState: Z,
     setupContext: null,
     // suspense related
     suspense: n,
@@ -3705,7 +3705,7 @@ function pc(e, t, n) {
 }
 let fe = null;
 const zo = () => fe || Pe;
-let Zn, Qs;
+let Xn, Qs;
 {
   const e = as(), t = (n, s) => {
     let r;
@@ -3713,7 +3713,7 @@ let Zn, Qs;
       r.length > 1 ? r.forEach((o) => o(i)) : r[0](i);
     };
   };
-  Zn = t(
+  Xn = t(
     "__VUE_INSTANCE_SETTERS__",
     (n) => fe = n
   ), Qs = t(
@@ -3723,11 +3723,11 @@ let Zn, Qs;
 }
 const kn = (e) => {
   const t = fe;
-  return Zn(e), e.scope.on(), () => {
-    e.scope.off(), Zn(t);
+  return Xn(e), e.scope.on(), () => {
+    e.scope.off(), Xn(t);
   };
 }, ei = () => {
-  fe && fe.scope.off(), Zn(null);
+  fe && fe.scope.off(), Xn(null);
 };
 function Ko(e) {
   return e.vnode.shapeFlag & 4;
@@ -3801,7 +3801,7 @@ function Cc(e) {
   };
 }
 function Cs(e) {
-  return e.exposed ? e.exposeProxy || (e.exposeProxy = new Proxy(lo(Xl(e.exposed)), {
+  return e.exposed ? e.exposeProxy || (e.exposeProxy = new Proxy(lo(Zl(e.exposed)), {
     get(t, n) {
       if (n in t)
         return t[n];
@@ -3838,22 +3838,22 @@ function Qo(e, t, n = !1) {
 function yc(e) {
   return L(e) && "__vccOpts" in e;
 }
-const Xs = (e, t) => na(e, t, wn);
+const Zs = (e, t) => na(e, t, wn);
 function xc(e, t, n) {
   const s = arguments.length;
-  return s === 2 ? ne(t) && !I(t) ? Xn(t) ? de(e, null, [t]) : de(e, t) : de(e, null, t) : (s > 3 ? n = Array.prototype.slice.call(arguments, 2) : s === 3 && Xn(n) && (n = [n]), de(e, t, n));
+  return s === 2 ? ne(t) && !I(t) ? Zn(t) ? de(e, null, [t]) : de(e, t) : de(e, null, t) : (s > 3 ? n = Array.prototype.slice.call(arguments, 2) : s === 3 && Zn(n) && (n = [n]), de(e, t, n));
 }
 const vc = "3.5.13";
-let Zs;
+let Xs;
 const ni = typeof window < "u" && window.trustedTypes;
 if (ni)
   try {
-    Zs = /* @__PURE__ */ ni.createPolicy("vue", {
+    Xs = /* @__PURE__ */ ni.createPolicy("vue", {
       createHTML: (e) => e
     });
   } catch {
   }
-const Xo = Zs ? (e) => Zs.createHTML(e) : (e) => e, wc = "http://www.w3.org/2000/svg", Pc = "http://www.w3.org/1998/Math/MathML", rt = typeof document < "u" ? document : null, si = rt && /* @__PURE__ */ rt.createElement("template"), kc = {
+const Zo = Xs ? (e) => Xs.createHTML(e) : (e) => e, wc = "http://www.w3.org/2000/svg", Pc = "http://www.w3.org/1998/Math/MathML", rt = typeof document < "u" ? document : null, si = rt && /* @__PURE__ */ rt.createElement("template"), kc = {
   insert: (e, t, n) => {
     t.insertBefore(e, n || null);
   },
@@ -3889,7 +3889,7 @@ const Xo = Zs ? (e) => Zs.createHTML(e) : (e) => e, wc = "http://www.w3.org/2000
       for (; t.insertBefore(r.cloneNode(!0), n), !(r === i || !(r = r.nextSibling)); )
         ;
     else {
-      si.innerHTML = Xo(
+      si.innerHTML = Zo(
         s === "svg" ? `<svg>${e}</svg>` : s === "mathml" ? `<math>${e}</math>` : e
       );
       const l = si.content;
@@ -3908,7 +3908,7 @@ const Xo = Zs ? (e) => Zs.createHTML(e) : (e) => e, wc = "http://www.w3.org/2000
       n ? n.previousSibling : t.lastChild
     ];
   }
-}, ht = "transition", en = "animation", Pn = Symbol("_vtc"), Zo = {
+}, ht = "transition", en = "animation", Pn = Symbol("_vtc"), Xo = {
   name: String,
   type: String,
   css: {
@@ -3928,7 +3928,7 @@ const Xo = Zs ? (e) => Zs.createHTML(e) : (e) => e, wc = "http://www.w3.org/2000
 }, Ec = /* @__PURE__ */ ae(
   {},
   bo,
-  Zo
+  Xo
 ), Mc = (e) => (e.displayName = "Transition", e.props = Ec, e), Ac = /* @__PURE__ */ Mc(
   (e, { slots: t }) => xc(ba, Tc(e), t)
 ), Pt = (e, t = []) => {
@@ -3937,7 +3937,7 @@ const Xo = Zs ? (e) => Zs.createHTML(e) : (e) => e, wc = "http://www.w3.org/2000
 function Tc(e) {
   const t = {};
   for (const M in e)
-    M in Zo || (t[M] = e[M]);
+    M in Xo || (t[M] = e[M]);
   if (e.css === !1)
     return t;
   const {
@@ -3956,18 +3956,18 @@ function Tc(e) {
   } = e, P = Rc(r), b = P && P[0], E = P && P[1], {
     onBeforeEnter: D,
     onEnter: B,
-    onEnterCancelled: W,
+    onEnterCancelled: H,
     onLeave: A,
     onLeaveCancelled: T,
     onBeforeAppear: N = D,
-    onAppear: H = B,
-    onAppearCancelled: Z = W
+    onAppear: U = B,
+    onAppearCancelled: X = H
   } = t, $ = (M, se, ge, Ye) => {
     M._enterCancelled = Ye, kt(M, se ? c : l), kt(M, se ? u : o), ge && ge();
   }, V = (M, se) => {
     M._isLeaving = !1, kt(M, d), kt(M, m), kt(M, p), se && se();
   }, ie = (M) => (se, ge) => {
-    const Ye = M ? H : B, he = () => $(se, M, ge);
+    const Ye = M ? U : B, he = () => $(se, M, ge);
     Pt(Ye, [se, he]), ii(() => {
       kt(se, M ? a : i), tt(se, M ? c : l), ri(Ye) || oi(se, s, b, he);
     });
@@ -3989,10 +3989,10 @@ function Tc(e) {
       }), Pt(A, [M, ge]);
     },
     onEnterCancelled(M) {
-      $(M, !1, void 0, !0), Pt(W, [M]);
+      $(M, !1, void 0, !0), Pt(H, [M]);
     },
     onAppearCancelled(M) {
-      $(M, !0, void 0, !0), Pt(Z, [M]);
+      $(M, !0, void 0, !0), Pt(X, [M]);
     },
     onLeaveCancelled(M) {
       V(M), Pt(T, [M]);
@@ -4139,7 +4139,7 @@ function pi(e, t, n, s, r, i = Ml(t)) {
 }
 function gi(e, t, n, s, r) {
   if (t === "innerHTML" || t === "textContent") {
-    n != null && (e[t] = t === "innerHTML" ? Xo(n) : n);
+    n != null && (e[t] = t === "innerHTML" ? Zo(n) : n);
     return;
   }
   const i = e.tagName;
@@ -4440,14 +4440,14 @@ const Si = (e) => {
   const t = e.props["onUpdate:modelValue"] || !1;
   return I(t) ? (n) => Bn(t, n) : t;
 };
-function Xc(e) {
+function Zc(e) {
   e.target.composing = !0;
 }
 function yi(e) {
   const t = e.target;
   t.composing && (t.composing = !1, t.dispatchEvent(new Event("input")));
 }
-const Fs = Symbol("_assign"), Zc = {
+const Fs = Symbol("_assign"), Xc = {
   created(e, { modifiers: { lazy: t, trim: n, number: s } }, r) {
     e[Fs] = Si(r);
     const i = s || r.props && r.props.type === "number";
@@ -4457,7 +4457,7 @@ const Fs = Symbol("_assign"), Zc = {
       n && (l = l.trim()), i && (l = Ns(l)), e[Fs](l);
     }), n && Nt(e, "change", () => {
       e.value = e.value.trim();
-    }), t || (Nt(e, "compositionstart", Xc), Nt(e, "compositionend", yi), Nt(e, "change", yi));
+    }), t || (Nt(e, "compositionstart", Zc), Nt(e, "compositionend", yi), Nt(e, "change", yi));
   },
   // set value on mounted so it's after min/max for type="range"
   mounted(e, { value: t }) {
@@ -4549,16 +4549,16 @@ function au(e, t, n, s, r, i) {
     class: "chat-header",
     style: lt({ backgroundColor: e.headerBackgroundColor })
   }, [
-    Ze("img", {
+    Xe("img", {
       src: e.headerIcon,
       alt: "Chatbot",
       class: "chatbot-image"
     }, null, 8, lu),
-    Ze("span", {
+    Xe("span", {
       class: "chatbot-name",
       style: lt({ color: e.headerTextColor })
     }, Wi(e.headerName), 5),
-    Ze("button", {
+    Xe("button", {
       class: "close-btn",
       style: lt({ color: e.closeBtnColor }),
       onClick: t[0] || (t[0] = (o) => e.$emit("close"))
@@ -4976,24 +4976,24 @@ ${d}` : d;
 `, 1)[0], P = !p.trim(), b = 0;
         if (this.options.pedantic ? (b = 2, d = p.trimStart()) : P ? b = n[1].length + 1 : (b = n[2].search(this.rules.other.nonSpaceChar), b = b > 4 ? 1 : b, d = p.slice(b), b += n[1].length), P && this.rules.other.blankLine.test(m) && (c += m + `
 `, t = t.substring(m.length + 1), u = !0), !u) {
-          const B = this.rules.other.nextBulletRegex(b), W = this.rules.other.hrRegex(b), A = this.rules.other.fencesBeginRegex(b), T = this.rules.other.headingBeginRegex(b), N = this.rules.other.htmlBeginRegex(b);
+          const B = this.rules.other.nextBulletRegex(b), H = this.rules.other.hrRegex(b), A = this.rules.other.fencesBeginRegex(b), T = this.rules.other.headingBeginRegex(b), N = this.rules.other.htmlBeginRegex(b);
           for (; t; ) {
-            const H = t.split(`
+            const U = t.split(`
 `, 1)[0];
-            let Z;
-            if (m = H, this.options.pedantic ? (m = m.replace(this.rules.other.listReplaceNesting, "  "), Z = m) : Z = m.replace(this.rules.other.tabCharGlobal, "    "), A.test(m) || T.test(m) || N.test(m) || B.test(m) || W.test(m))
+            let X;
+            if (m = U, this.options.pedantic ? (m = m.replace(this.rules.other.listReplaceNesting, "  "), X = m) : X = m.replace(this.rules.other.tabCharGlobal, "    "), A.test(m) || T.test(m) || N.test(m) || B.test(m) || H.test(m))
               break;
-            if (Z.search(this.rules.other.nonSpaceChar) >= b || !m.trim())
+            if (X.search(this.rules.other.nonSpaceChar) >= b || !m.trim())
               d += `
-` + Z.slice(b);
+` + X.slice(b);
             else {
-              if (P || p.replace(this.rules.other.tabCharGlobal, "    ").search(this.rules.other.nonSpaceChar) >= 4 || A.test(p) || T.test(p) || W.test(p))
+              if (P || p.replace(this.rules.other.tabCharGlobal, "    ").search(this.rules.other.nonSpaceChar) >= 4 || A.test(p) || T.test(p) || H.test(p))
                 break;
               d += `
 ` + m;
             }
-            !P && !m.trim() && (P = !0), c += H + `
-`, t = t.substring(H.length + 1), p = Z.slice(b);
+            !P && !m.trim() && (P = !0), c += U + `
+`, t = t.substring(U.length + 1), p = X.slice(b);
           }
         }
         i.loose || (l ? i.loose = !0 : this.rules.other.doubleBlankLine.test(c) && (l = !0));
@@ -6176,14 +6176,14 @@ function Qu(e, t, n, s, r, i) {
       class: cs(["message", o.from]),
       style: lt(e.messageStyle(o.from))
     }, [
-      Ze("p", {
+      Xe("p", {
         innerHTML: e.renderMarkdown(o.text),
         class: "message-content"
       }, null, 8, Ju)
     ], 6))), 128))
   ]);
 }
-const Xu = /* @__PURE__ */ Jt(zu, [["render", Qu], ["styles", [Ku]], ["__scopeId", "data-v-a342bf86"]]), Zu = /* @__PURE__ */ Ot({
+const Zu = /* @__PURE__ */ Jt(zu, [["render", Qu], ["styles", [Ku]], ["__scopeId", "data-v-a342bf86"]]), Xu = /* @__PURE__ */ Ot({
   name: "ChatInput",
   props: {
     userInput: {
@@ -6210,12 +6210,12 @@ const Xu = /* @__PURE__ */ Jt(zu, [["render", Qu], ["styles", [Ku]], ["__scopeId
   emits: ["send-message", "update:userInput"],
   setup(e, { emit: t }) {
     const n = Oe(e.userInput);
-    return Xe(
+    return Ze(
       () => e.userInput,
       (i) => {
         n.value = i;
       }
-    ), Xe(n, (i) => {
+    ), Ze(n, (i) => {
       t("update:userInput", i);
     }), { localInput: n, handleSend: () => {
       t("send-message");
@@ -6230,29 +6230,29 @@ const Xu = /* @__PURE__ */ Jt(zu, [["render", Qu], ["styles", [Ku]], ["__scopeId
 };
 function rf(e, t, n, s, r, i) {
   return Ne(), at("div", ef, [
-    da(Ze("input", {
+    da(Xe("input", {
       "onUpdate:modelValue": t[0] || (t[0] = (o) => e.localInput = o),
       onKeyup: t[1] || (t[1] = eu((...o) => e.handleSend && e.handleSend(...o), ["enter"])),
       placeholder: e.placeholder,
       disabled: e.sending
     }, null, 40, tf), [
-      [Zc, e.localInput]
+      [Xc, e.localInput]
     ]),
-    Ze("button", {
+    Xe("button", {
       disabled: e.sending,
       onClick: t[2] || (t[2] = (...o) => e.handleSend && e.handleSend(...o)),
       style: lt(e.buttonStyle())
     }, " Enviar ", 12, nf),
     e.sending ? (Ne(), at("div", sf, t[3] || (t[3] = [
-      Ze("div", { class: "spinner" }, null, -1)
+      Xe("div", { class: "spinner" }, null, -1)
     ]))) : Hn("", !0)
   ]);
 }
-const of = /* @__PURE__ */ Jt(Zu, [["render", rf], ["styles", [Yu]], ["__scopeId", "data-v-aaadc865"]]), lf = /* @__PURE__ */ Ot({
+const of = /* @__PURE__ */ Jt(Xu, [["render", rf], ["styles", [Yu]], ["__scopeId", "data-v-aaadc865"]]), lf = /* @__PURE__ */ Ot({
   name: "ChatWindow",
   components: {
     ChatHeader: cu,
-    ChatMessages: Xu,
+    ChatMessages: Zu,
     ChatInput: of
   },
   props: {
@@ -6277,12 +6277,12 @@ const of = /* @__PURE__ */ Jt(Zu, [["render", rf], ["styles", [Yu]], ["__scopeId
   emits: ["send-message", "toggle-chat", "update:userInput"],
   setup(e, { emit: t }) {
     const n = Oe(e.userInput);
-    return Xe(
+    return Ze(
       () => e.userInput,
       (i) => {
         n.value = i;
       }
-    ), Xe(n, (i) => {
+    ), Ze(n, (i) => {
       t("update:userInput", i);
     }), {
       localUserInput: n,
@@ -6344,7 +6344,7 @@ function pf(e, t, n, s, r, i) {
     class: "chatbot-toggle",
     onClick: t[0] || (t[0] = (o) => e.$emit("toggle-chat"))
   }, [
-    Ze("img", {
+    Xe("img", {
       src: e.headerIcon,
       alt: "Chatbot",
       class: "chatbot-icon"
@@ -6365,8 +6365,8 @@ function Cf(e) {
   let i = "", o = !0, l, a = "", u = "";
   function c(b) {
     const E = o ? b.replace(/^\xEF\xBB\xBF/, "") : b, [D, B] = _f(`${i}${E}`);
-    for (const W of D)
-      d(W);
+    for (const H of D)
+      d(H);
     i = B, o = !1;
   }
   function d(b) {
@@ -6380,8 +6380,8 @@ function Cf(e) {
     }
     const E = b.indexOf(":");
     if (E !== -1) {
-      const D = b.slice(0, E), B = b[E + 1] === " " ? 2 : 1, W = b.slice(E + B);
-      p(D, W, b);
+      const D = b.slice(0, E), B = b[E + 1] === " " ? 2 : 1, H = b.slice(E + B);
+      p(D, H, b);
       return;
     }
     p(b, "", b);
@@ -6505,13 +6505,13 @@ function Ri(e) {
 }
 var fl = (e) => {
   throw TypeError(e);
-}, Dr = (e, t, n) => t.has(e) || fl("Cannot " + n), U = (e, t, n) => (Dr(e, t, "read from private field"), n ? n.call(e) : t.get(e)), ue = (e, t, n) => t.has(e) ? fl("Cannot add the same private member more than once") : t instanceof WeakSet ? t.add(e) : t.set(e, n), re = (e, t, n, s) => (Dr(e, t, "write to private field"), t.set(e, n), n), st = (e, t, n) => (Dr(e, t, "access private method"), n), ve, At, $t, jn, ns, bn, Wt, Cn, bt, Bt, Kt, Ut, rn, $e, tr, nr, sr, Ii, rr, ir, on, or, lr;
+}, Dr = (e, t, n) => t.has(e) || fl("Cannot " + n), W = (e, t, n) => (Dr(e, t, "read from private field"), n ? n.call(e) : t.get(e)), ue = (e, t, n) => t.has(e) ? fl("Cannot add the same private member more than once") : t instanceof WeakSet ? t.add(e) : t.set(e, n), re = (e, t, n, s) => (Dr(e, t, "write to private field"), t.set(e, n), n), st = (e, t, n) => (Dr(e, t, "access private method"), n), ve, At, $t, jn, ns, bn, Wt, Cn, bt, Bt, Kt, Ut, rn, $e, tr, nr, sr, Ii, rr, ir, on, or, lr;
 class Vn extends EventTarget {
   constructor(t, n) {
     var s, r;
     super(), ue(this, $e), this.CONNECTING = 0, this.OPEN = 1, this.CLOSED = 2, ue(this, ve), ue(this, At), ue(this, $t), ue(this, jn), ue(this, ns), ue(this, bn), ue(this, Wt), ue(this, Cn, null), ue(this, bt), ue(this, Bt), ue(this, Kt, null), ue(this, Ut, null), ue(this, rn, null), ue(this, nr, async (i) => {
       var o;
-      U(this, Bt).reset();
+      W(this, Bt).reset();
       const { body: l, redirected: a, status: u, headers: c } = i;
       if (u === 204) {
         st(this, $e, on).call(this, "Server sent HTTP 204, not reconnecting", 204), this.close();
@@ -6525,11 +6525,11 @@ class Vn extends EventTarget {
         st(this, $e, on).call(this, 'Invalid content type, expected "text/event-stream"', u);
         return;
       }
-      if (U(this, ve) === this.CLOSED)
+      if (W(this, ve) === this.CLOSED)
         return;
       re(this, ve, this.OPEN);
       const d = new Event("open");
-      if ((o = U(this, rn)) == null || o.call(this, d), this.dispatchEvent(d), typeof l != "object" || !l || !("getReader" in l)) {
+      if ((o = W(this, rn)) == null || o.call(this, d), this.dispatchEvent(d), typeof l != "object" || !l || !("getReader" in l)) {
         st(this, $e, on).call(this, "Invalid response body, expected a web ReadableStream", u), this.close();
         return;
       }
@@ -6537,7 +6537,7 @@ class Vn extends EventTarget {
       let P = !0;
       do {
         const { done: b, value: E } = await m.read();
-        E && U(this, Bt).feed(p.decode(E, { stream: !b })), b && (P = !1, U(this, Bt).reset(), st(this, $e, or).call(this));
+        E && W(this, Bt).feed(p.decode(E, { stream: !b })), b && (P = !1, W(this, Bt).reset(), st(this, $e, or).call(this));
       } while (P);
     }), ue(this, sr, (i) => {
       re(this, bt, void 0), !(i.name === "AbortError" || i.type === "aborted") && st(this, $e, or).call(this, er(i));
@@ -6545,14 +6545,14 @@ class Vn extends EventTarget {
       typeof i.id == "string" && re(this, Cn, i.id);
       const o = new MessageEvent(i.event || "message", {
         data: i.data,
-        origin: U(this, $t) ? U(this, $t).origin : U(this, At).origin,
+        origin: W(this, $t) ? W(this, $t).origin : W(this, At).origin,
         lastEventId: i.id || ""
       });
-      U(this, Ut) && (!i.event || i.event === "message") && U(this, Ut).call(this, o), this.dispatchEvent(o);
+      W(this, Ut) && (!i.event || i.event === "message") && W(this, Ut).call(this, o), this.dispatchEvent(o);
     }), ue(this, ir, (i) => {
       re(this, bn, i);
     }), ue(this, lr, () => {
-      re(this, Wt, void 0), U(this, ve) === this.CONNECTING && st(this, $e, tr).call(this);
+      re(this, Wt, void 0), W(this, ve) === this.CONNECTING && st(this, $e, tr).call(this);
     });
     try {
       if (t instanceof URL)
@@ -6565,8 +6565,8 @@ class Vn extends EventTarget {
       throw Sf("An invalid or illegal string was specified");
     }
     re(this, Bt, Cf({
-      onEvent: U(this, rr),
-      onRetry: U(this, ir)
+      onEvent: W(this, rr),
+      onRetry: W(this, ir)
     })), re(this, ve, this.CONNECTING), re(this, bn, 3e3), re(this, ns, (s = n == null ? void 0 : n.fetch) != null ? s : globalThis.fetch), re(this, jn, (r = n == null ? void 0 : n.withCredentials) != null ? r : !1), st(this, $e, tr).call(this);
   }
   /**
@@ -6580,7 +6580,7 @@ class Vn extends EventTarget {
    * @public
    */
   get readyState() {
-    return U(this, ve);
+    return W(this, ve);
   }
   /**
    * Returns the URL providing the event stream.
@@ -6590,7 +6590,7 @@ class Vn extends EventTarget {
    * @public
    */
   get url() {
-    return U(this, At).href;
+    return W(this, At).href;
   }
   /**
    * Returns true if the credentials mode for connection requests to the URL providing the event stream is set to "include", and false otherwise.
@@ -6598,25 +6598,25 @@ class Vn extends EventTarget {
    * [MDN Reference](https://developer.mozilla.org/docs/Web/API/EventSource/withCredentials)
    */
   get withCredentials() {
-    return U(this, jn);
+    return W(this, jn);
   }
   /** [MDN Reference](https://developer.mozilla.org/docs/Web/API/EventSource/error_event) */
   get onerror() {
-    return U(this, Kt);
+    return W(this, Kt);
   }
   set onerror(t) {
     re(this, Kt, t);
   }
   /** [MDN Reference](https://developer.mozilla.org/docs/Web/API/EventSource/message_event) */
   get onmessage() {
-    return U(this, Ut);
+    return W(this, Ut);
   }
   set onmessage(t) {
     re(this, Ut, t);
   }
   /** [MDN Reference](https://developer.mozilla.org/docs/Web/API/EventSource/open_event) */
   get onopen() {
-    return U(this, rn);
+    return W(this, rn);
   }
   set onopen(t) {
     re(this, rn, t);
@@ -6637,7 +6637,7 @@ class Vn extends EventTarget {
    * @public
    */
   close() {
-    U(this, Wt) && clearTimeout(U(this, Wt)), U(this, ve) !== this.CLOSED && (U(this, bt) && U(this, bt).abort(), re(this, ve, this.CLOSED), re(this, bt, void 0));
+    W(this, Wt) && clearTimeout(W(this, Wt)), W(this, ve) !== this.CLOSED && (W(this, bt) && W(this, bt).abort(), re(this, ve, this.CLOSED), re(this, bt, void 0));
   }
 }
 ve = /* @__PURE__ */ new WeakMap(), At = /* @__PURE__ */ new WeakMap(), $t = /* @__PURE__ */ new WeakMap(), jn = /* @__PURE__ */ new WeakMap(), ns = /* @__PURE__ */ new WeakMap(), bn = /* @__PURE__ */ new WeakMap(), Wt = /* @__PURE__ */ new WeakMap(), Cn = /* @__PURE__ */ new WeakMap(), bt = /* @__PURE__ */ new WeakMap(), Bt = /* @__PURE__ */ new WeakMap(), Kt = /* @__PURE__ */ new WeakMap(), Ut = /* @__PURE__ */ new WeakMap(), rn = /* @__PURE__ */ new WeakMap(), $e = /* @__PURE__ */ new WeakSet(), /**
@@ -6646,7 +6646,7 @@ ve = /* @__PURE__ */ new WeakMap(), At = /* @__PURE__ */ new WeakMap(), $t = /* 
 * @internal
 */
 tr = function() {
-  re(this, ve, this.CONNECTING), re(this, bt, new AbortController()), U(this, ns)(U(this, At), st(this, $e, Ii).call(this)).then(U(this, nr)).catch(U(this, sr));
+  re(this, ve, this.CONNECTING), re(this, bt, new AbortController()), W(this, ns)(W(this, At), st(this, $e, Ii).call(this)).then(W(this, nr)).catch(W(this, sr));
 }, nr = /* @__PURE__ */ new WeakMap(), sr = /* @__PURE__ */ new WeakMap(), /**
 * Get request options for the `fetch()` request
 *
@@ -6660,9 +6660,9 @@ Ii = function() {
     // [spec] …will have their mode set to "cors"…
     mode: "cors",
     redirect: "follow",
-    headers: { Accept: "text/event-stream", ...U(this, Cn) ? { "Last-Event-ID": U(this, Cn) } : void 0 },
+    headers: { Accept: "text/event-stream", ...W(this, Cn) ? { "Last-Event-ID": W(this, Cn) } : void 0 },
     cache: "no-store",
-    signal: (e = U(this, bt)) == null ? void 0 : e.signal
+    signal: (e = W(this, bt)) == null ? void 0 : e.signal
   };
   return "window" in globalThis && (t.credentials = this.withCredentials ? "include" : "same-origin"), t;
 }, rr = /* @__PURE__ */ new WeakMap(), ir = /* @__PURE__ */ new WeakMap(), /**
@@ -6674,9 +6674,9 @@ Ii = function() {
 */
 on = function(e, t) {
   var n;
-  U(this, ve) !== this.CLOSED && re(this, ve, this.CLOSED);
+  W(this, ve) !== this.CLOSED && re(this, ve, this.CLOSED);
   const s = new Ti("error", { code: t, message: e });
-  (n = U(this, Kt)) == null || n.call(this, s), this.dispatchEvent(s);
+  (n = W(this, Kt)) == null || n.call(this, s), this.dispatchEvent(s);
 }, /**
 * Schedules a reconnection attempt against the EventSource endpoint.
 *
@@ -6686,11 +6686,11 @@ on = function(e, t) {
 */
 or = function(e, t) {
   var n;
-  if (U(this, ve) === this.CLOSED)
+  if (W(this, ve) === this.CLOSED)
     return;
   re(this, ve, this.CONNECTING);
   const s = new Ti("error", { code: t, message: e });
-  (n = U(this, Kt)) == null || n.call(this, s), this.dispatchEvent(s), re(this, Wt, setTimeout(U(this, lr), U(this, bn)));
+  (n = W(this, Kt)) == null || n.call(this, s), this.dispatchEvent(s), re(this, Wt, setTimeout(W(this, lr), W(this, bn)));
 }, lr = /* @__PURE__ */ new WeakMap(), /**
 * ReadyState representing an EventSource currently trying to connect
 *
@@ -6969,7 +6969,7 @@ const wf = /* @__PURE__ */ Ot({
   props: hl,
   setup(e) {
     const t = Oe(Di(e)), n = Oe(e.chatMode || "public"), s = Oe(e.dataUuidUser || null);
-    Za(() => {
+    Xa(() => {
       const { chatMode: T, ...N } = e;
       t.value = {
         ...t.value,
@@ -6978,7 +6978,7 @@ const wf = /* @__PURE__ */ Ot({
     });
     const r = { apikey: t.value.dataApiKey };
     Ao("chatConfig", r);
-    const i = new xf(r), o = Xs(() => `${n.value}_threadId`), l = Oe(localStorage.getItem(o.value)), a = {
+    const i = new xf(r), o = Zs(() => `${n.value}_threadId`), l = Oe(localStorage.getItem(o.value)), a = {
       isOpen: Oe(!1),
       userInput: Oe(""),
       messages: Oe([]),
@@ -6986,18 +6986,18 @@ const wf = /* @__PURE__ */ Ot({
       sending: Oe(!1),
       chatStatus: Oe(""),
       showChatBot: Oe(!1)
-    }, u = zo(), c = Xs(
+    }, u = zo(), c = Zs(
       () => a.sending.value && a.chatStatus.value ? `Estado: ${a.chatStatus.value}` : "Escribe tu mensaje..."
     ), d = () => {
       Cr(() => {
-        var H, Z;
-        const T = (Z = (H = u == null ? void 0 : u.vnode) == null ? void 0 : H.el) == null ? void 0 : Z.getRootNode();
+        var U, X;
+        const T = (X = (U = u == null ? void 0 : u.vnode) == null ? void 0 : U.el) == null ? void 0 : X.getRootNode();
         if (!T) return;
         const N = T.querySelector(".chat-messages");
         N && (N.scrollTop = N.scrollHeight);
       });
     };
-    Xe(a.messages, d, { deep: !0 });
+    Ze(a.messages, d, { deep: !0 });
     const p = () => {
       b && E && (b.removeEventListener(`${a.threadId.value}`, E), b.close(), b = null, E = null);
     }, m = (T, N) => {
@@ -7007,8 +7007,8 @@ const wf = /* @__PURE__ */ Ot({
         try {
           (await i.loadChatHistory(a.threadId.value)).forEach((N) => {
             var $, V;
-            const H = ((V = ($ = N == null ? void 0 : N.content[0]) == null ? void 0 : $.text) == null ? void 0 : V.value) || "", Z = (N == null ? void 0 : N.role) || "assistant";
-            H && m(H, Z);
+            const U = ((V = ($ = N == null ? void 0 : N.content[0]) == null ? void 0 : $.text) == null ? void 0 : V.value) || "", X = (N == null ? void 0 : N.role) || "assistant";
+            U && m(U, X);
           });
         } catch {
           m("Error al cargar historial.", "assistantError");
@@ -7019,10 +7019,10 @@ const wf = /* @__PURE__ */ Ot({
     let b = null, E = null, D = null;
     const B = (T) => {
       p(), b = i.createChatStream(T), E = (N) => {
-        const H = JSON.parse(N.data);
-        H.word && (D === null ? (m(H.word, "assistant"), D = a.messages.value.length - 1) : a.messages.value[D].text += H.word), a.chatStatus.value = H.status, ["completed", "failed"].includes(H.status) && (a.sending.value = !1, D = null, p());
+        const U = JSON.parse(N.data);
+        U.word && (D === null ? (m(U.word, "assistant"), D = a.messages.value.length - 1) : a.messages.value[D].text += U.word), a.chatStatus.value = U.status, ["completed"].includes(U.status) && (a.sending.value = !1, D = null, p()), ["failed"].includes(U.status) && (m(U.error || "Lo lamentamos, ocurrio un error en el servicio, por favor contactar al area de soporte.", "assistantError"), a.sending.value = !1, D = null, p());
       }, b.addEventListener(`${a.threadId.value}`, E), b.onerror = p;
-    }, W = async () => {
+    }, H = async () => {
       if (!(!a.userInput.value.trim() || a.sending.value)) {
         m(a.userInput.value, "user"), a.sending.value = !0;
         try {
@@ -7040,16 +7040,16 @@ const wf = /* @__PURE__ */ Ot({
     }, A = async () => {
       a.isOpen.value = !a.isOpen.value, a.isOpen.value && !a.messages.value.length ? (a.sending.value = !0, await P(), a.sending.value = !1) : d();
     };
-    return Xe(
+    return Ze(
       () => e.chatMode,
       async (T, N) => {
         if (T && T !== N && (T === "public" || T === "private")) {
           n.value = T;
-          const H = localStorage.getItem(`${T}_threadId`);
-          a.threadId.value = H || null, a.messages.value = [], await P();
+          const U = localStorage.getItem(`${T}_threadId`);
+          a.threadId.value = U || null, a.messages.value = [], await P();
         }
       }
-    ), Xe(
+    ), Ze(
       () => e.dataUuidUser,
       (T, N) => {
         T && T !== N && (s.value = T);
@@ -7067,13 +7067,13 @@ const wf = /* @__PURE__ */ Ot({
       }
     }), {
       ...a,
-      sendMessage: W,
+      sendMessage: H,
       toggleChat: A,
       placeholderText: c,
       ...t.value
     };
   }
-}), Pf = ".chat-slide-enter-active[data-v-6ad61b1a],.chat-slide-leave-active[data-v-6ad61b1a]{transition:transform .4s ease,opacity .4s ease}.chat-slide-enter-from[data-v-6ad61b1a]{transform:translate(100%);opacity:0}.chat-slide-enter-to[data-v-6ad61b1a],.chat-slide-leave-from[data-v-6ad61b1a]{transform:translate(0);opacity:1}.chat-slide-leave-to[data-v-6ad61b1a]{transform:translate(100%);opacity:0}", kf = { key: 0 };
+}), Pf = ".chat-slide-enter-active[data-v-6ceba45f],.chat-slide-leave-active[data-v-6ceba45f]{transition:transform .4s ease,opacity .4s ease}.chat-slide-enter-from[data-v-6ceba45f]{transform:translate(100%);opacity:0}.chat-slide-enter-to[data-v-6ceba45f],.chat-slide-leave-from[data-v-6ceba45f]{transform:translate(0);opacity:1}.chat-slide-leave-to[data-v-6ceba45f]{transform:translate(100%);opacity:0}", kf = { key: 0 };
 function Ef(e, t, n, s, r, i) {
   const o = hn("ChatWindow"), l = hn("ChatToggle");
   return e.showChatBot ? (Ne(), at("div", kf, [
@@ -7112,7 +7112,7 @@ function Ef(e, t, n, s, r, i) {
     }, null, 8, ["onToggleChat", "header-icon"]))
   ])) : Hn("", !0);
 }
-const dl = /* @__PURE__ */ Jt(wf, [["render", Ef], ["styles", [Pf]], ["__scopeId", "data-v-6ad61b1a"]]);
+const dl = /* @__PURE__ */ Jt(wf, [["render", Ef], ["styles", [Pf]], ["__scopeId", "data-v-6ceba45f"]]);
 dl.props = hl;
 const Mf = /* @__PURE__ */ Jc(dl, { shadowRoot: !0 });
 customElements.define("chat-bot", Mf);
